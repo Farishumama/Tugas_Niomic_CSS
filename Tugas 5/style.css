@@ -1,0 +1,31 @@
+.div_menu {
+  background-color: black;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.menu {
+  color: white;
+}
+
+.slider-div {
+  margin-top: 10px;
+}
+
+p {
+  font-size: 15px
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.footer {
+  font-size: 18px;
+}
+
+.footer-alamat {
+  font-size: 15px;
+}

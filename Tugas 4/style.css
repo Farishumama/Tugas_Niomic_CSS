@@ -1,0 +1,17 @@
+div {
+  font-size: 18px;
+  color: black;
+}
+
+button {
+  font-size: 35px;
+  color: green;
+}
+
+#submit {
+  color: blue;
+}
+
+.daftar {
+  color: #c77204 !important
+}

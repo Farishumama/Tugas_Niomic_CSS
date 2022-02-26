@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="semantic.min.css">
+    <title>Tugas CSS - Niomic</title>
+    <style media="screen">
+      body {
+        background-color: #e0e0e0;
+      }
+
+      .container {
+        margin-top: 100px;
+        margin-left: 450px;
+        margin-right: 450px;
+      }
+
+      .atas {
+        display: flex;
+        justify-content: center;
+        color: #20b2aa;
+      }
+
+      img {
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="atas">
+        <table>
+          <tr>
+            <th><img class="ui middle aligned image" src="niomic.png"></th>
+            <th><h2>&nbsp;&nbsp;Daftar Akun NIOMIC</h2></th>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <form class="ui form">
+        <div class="ui segment">
+          <div class="field">
+            <div class="ui left icon input">
+              <input type="text" name="nama-depan" placeholder="Nama Depan">
+              <i class="user icon"></i>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <input type="text" name="nama-belakang" placeholder="Nama Belakang">
+              <i class="user icon"></i>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <input type="tel" name="nomer-telpon" placeholder="No Telp/HP">
+              <i class="user icon"></i>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <input type="email" name="alamat-email" placeholder="Alamat Email">
+              <i class="user icon"></i>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui left icon input">
+              <input type="password" name="password" placeholder="Password">
+              <i class="user icon"></i>
+            </div>
+          </div>
+          <div class="field">
+
+            <button class="fluid ui teal button">Login</button>
+
+          </div>
+
+        </div>
+      </form>
+    </div>
+    <script src="semantic.min.js"></script>
+  </body>
+</html>

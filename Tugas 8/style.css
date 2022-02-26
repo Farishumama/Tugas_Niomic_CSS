@@ -1,0 +1,41 @@
+body {
+  /* DIKARENAKAN TIDAK MENDAPAT URL lINK BACKGROUND IMAGE DARI TUGAS NYA, MAKA SAYA MENGGUNAKAN URL yg ADA SAJA. */
+  background-image: url(Stupa_Borobudur.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+div {
+  background-image: url(avocado.jpg);
+  background-repeat: repeat-y;
+  background-color: white;
+  background-size: 340px 270px;
+  overflow: scroll;
+  width: 65%;
+  height: 450px;
+}
+
+p {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.satu {
+  text-align: right;
+  color: blue;
+}
+
+.dua {
+  text-align: left;
+  color: green;
+
+}
+
+.tiga {
+  text-align: right;
+  color: red;
+  padding-right: 25px
+
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas CSS - Niomic</title>
+    <style media="screen">
+      body {
+        background-color: #353535;
+        color: white;
+      }
+
+      .container {
+        width: 500px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .image {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-group">
+        <div class="image"><img class="rounded-circle" src="lampung.jpg" alt="" width="150px" height="90px"></div><br>
+        <div class="mb-3">
+          <label class="form-label">Nama lengkap</label>
+          <input class="form-control" type="text" name="" placeholder="Nama Lengkap">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Alamat</label>
+          <textarea class="form-control" name="name" rows="2" cols="80"></textarea>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Alamat Email</label>
+          <input class="form-control" type="email" name="" placeholder="Alamat Email (disabled)" disabled>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Password</label>
+          <input class="form-control" type="password" name="" placeholder="Password">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Scan KTP</label>
+          <input class="form-control" type="file" name="">
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="">
+          <label class="form-check-label" for="flexCheckDefault">
+            <sub>
+              Saya <u>setuju</u> dan telah membaca <b style="color: blue;">aturan</b> serta <b style="color: blue;">ketentuan</b> yang berlaku.
+            </sub>
+          </label>
+        </div>
+        <br>
+        <div class="d-grid">
+          <button
+            type="button"
+            class="btn btn-primary"
+            name="button">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
